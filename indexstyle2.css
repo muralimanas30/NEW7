@@ -1,0 +1,119 @@
+.row1col2{
+    display: flex;
+    gap: 30px;
+    
+}
+
+
+.row1{
+    display:inline-flex;
+    flex-wrap: wrap;
+    top: 80px;
+    height: 100vh;
+    transform: translate(50px,0px);
+    width: 60%;
+    
+    
+
+
+}
+
+.row1 .para1,.row1 .para2,.row1 .para3{
+    text-align: center;
+    min-width: 30%;
+    max-width: 40%;
+    min-height:15vh;
+    max-height: 32vh;
+    overflow: auto;
+    overflow: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 8px ;
+    box-shadow: 0px 3px 10px 3px #7b30a3 inset;
+    box-shadow: 3px 2px 15px 3px #40585c;
+    background:linear-gradient(to top left,#7b30a3,#000);
+    
+}
+
+.para1 h3,h2,.para2 h3,h2{
+    text-align: left;
+    overflow: auto;
+    margin: 8px 15px;
+}
+#hangover{
+    max-height: 85%;
+    max-width: 90%;
+    transform:translate(0px,7px);
+    border-radius: 5px;
+    border: 3px solid white;
+    box-shadow:0px 1px 15px 1px whitesmoke;
+    transition: all 0.2s;
+}
+#hangover:hover{
+    max-width: 95%;
+    box-shadow:0px 1px 15px 1px red;
+}
+.para3 p,.col2 p{
+    position: relative;
+    font-size: 20px;
+    color: whitesmoke;
+    
+}
+
+
+
+
+.col2{
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    min-height: 60vh;
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 15px;
+    box-shadow:0px 2px 20px 1px #24b7c8;
+    background:linear-gradient(to top left,#a50,#fff,#24b7c8,#003,#bbb6b6,#000);
+}
+
+.songimage{
+    padding: 10px;
+    height: 60%;
+    width: 100%;
+    background:linear-gradient(to top left,#286d75,#000);
+    border-radius: 15px;
+    box-shadow:0px 4px 15px #fff;
+    text-align: center;
+    
+}
+
+
+#catmusic{
+    
+    max-width: 70%;
+    max-height: 70%;
+    
+    border: 3px solid palegreen;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px 5px rgb(13, 163, 113);
+
+}
+#catmusic:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 3px 25px 5px rgb(13, 113, 163);
+}
+
+.col2 audio{
+    scale: 0.7;
+    min-height: 40px;
+
+    margin-bottom: 0px 0px;
+}
+
+.col2 .lyrics{
+    text-align: center;
+    font-size: 20px;
+    color:black;
+    overflow: auto;
+}
